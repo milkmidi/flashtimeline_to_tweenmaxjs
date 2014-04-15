@@ -3,9 +3,9 @@ FlashTimeline to TweenMax JS
 
 Adobe Flash CS6 Timeline to TweenMaxJS
 ![alt tag](https://raw.githubusercontent.com/milkmidi/flashtimeline_to_tweenmaxjs/master/img.jpg)
-將目前的時間軸轉成 TweenMax JS 版程式碼
+<h3>將目前的時間軸轉成 TweenMax JS 版程式碼</h3>
 
-使用方法：
+使用方法：<br/>
 1. 開啟 FlashCS6(FlashCC).<br/>
 2. 製作你的時間軸動畫.<br/>
 3. 第一個影格不能是空.<br/>
