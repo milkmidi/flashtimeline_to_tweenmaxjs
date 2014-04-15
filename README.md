@@ -12,6 +12,8 @@ Adobe Flash CS6 Timeline to TweenMaxJS
 2. 開啟 FlashCS6(FlashCC).<br/>
 3. 製作你的時間軸動畫或<a href="https://github.com/milkmidi/flashtimeline_to_tweenmaxjs/blob/master/demo.fla">點我下載 Demo.fla</a> .<br/>
 4. 第一個影格不能是空.<br/>
+![alt tag](https://raw.githubusercontent.com/milkmidi/flashtimeline_to_tweenmaxjs/master/keyframe.png)
+<br/>
 5. 點擊上方工具列 / 命令 / flashTimelineToTweenMaxJS <br/>
 ![alt tag](https://raw.githubusercontent.com/milkmidi/flashtimeline_to_tweenmaxjs/master/command.png)
 <br/>
