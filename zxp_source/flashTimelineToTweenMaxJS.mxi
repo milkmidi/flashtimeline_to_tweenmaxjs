@@ -1,0 +1,20 @@
+<macromedia-extension name="flashTimelineToTweenMaxJS" version="1.0.0" type="flash panel" requires-restart="true">
+  <description>
+    <![CDATA[flashTimelineToTweenMaxJS<br>]]>
+  </description>
+  <ui-access>
+    <![CDATA[Design by milkmidi<br>http://milkmidi.com]]>
+  </ui-access>
+  <products>
+    <product name="flash" primary="false" version="9"/>
+  </products>
+  <author name="milkmidi"/>
+  <files>
+    <file source="flashTimelineToTweenMaxJS.jsfl" destination="$flash/Commands"/>
+    <file source="assets/js/jquery-1.8.3.min.js" destination="$flash/Commands/milkmidi_tweenmax/js"/>
+    <file source="assets/js/TweenMax.min.js" destination="$flash/Commands/milkmidi_tweenmax/js"/>
+	<file source="assets/template.html" destination="$flash/Commands/milkmidi_tweenmax/"/>
+	
+  </files>
+  <configuration-changes/>
+</macromedia-extension>
