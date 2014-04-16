@@ -189,11 +189,14 @@ function parseXML( xml , layerIndex ){
 			if( keyFrame.localName() == 'Keyframe'){			
 			
 				var alpha = 1;
-				if ( keyFrame.children()[0].localName() == 'color'){					
-					var alpha = keyFrame.children()[0].children()[0].@alphaMultiplier;
-					if(alpha == undefined){
-						alpha = 1;
-					}					
+				try{
+					if ( keyFrame.children()[0].localName() == 'color'){					
+						var alpha = keyFrame.children()[0].children()[0].@alphaMultiplier;
+						if(alpha == undefined){
+							alpha = 1;
+						}					
+					}
+				}catch(err){
 				}
 				
 				var time =  keyFrame.@index / FPS - lastTime;	
