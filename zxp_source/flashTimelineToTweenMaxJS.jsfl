@@ -1,4 +1,4 @@
-/*
+﻿/*
 author:milkmidi
 version:1.1.0
 date:2014/04/15
